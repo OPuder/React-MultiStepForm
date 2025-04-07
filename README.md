@@ -1,59 +1,101 @@
-React Project
+# 🧾 MultiStepFormReact
 
-Überblick
+Ein einfaches, modernes Multi-Step-Formular mit React, Vite und TypeScript.
 
-Dies ist ein React-Projekt, das moderne Frontend-Technologien verwendet, um eine interaktive Benutzeroberfläche zu erstellen. Das Projekt basiert auf React und enthält verschiedene Komponenten sowie Tests zur Gewährleistung der Funktionalität.
+---
 
-Installation
+## 🚀 Schnellstart
 
-Um das Projekt lokal auszuführen, benötigst du Node.js und npm (oder yarn). Befolge die nachstehenden Schritte:
+### 1. Repository klonen
 
-# Repository klonen
-git clone https://github.com/OPuder/React.git
-cd React
+```bash
+git clone https://github.com/OPuder/React-MutliStepFormReact.git
+cd React-MutliStepFormReact
+```
 
-# Abhängigkeiten installieren
-npm install  # oder `yarn install`
+### 2. Abhängigkeiten installieren
 
-Entwicklung
+```bash
+npm install
+```
 
-Um eine Entwicklungsumgebung zu starten, verwende den folgenden Befehl:
+---
 
-npm start  # oder `yarn start`
+## 🧑‍💻 Lokale Entwicklung starten
 
-Die Anwendung wird unter http://localhost:3000/ erreichbar sein.
+```bash
+npm run dev
+```
 
-Tests
+Die App läuft dann unter:
 
-Das Projekt unterstützt Unit-Tests sowie End-to-End-Tests (E2E). Du kannst die Tests wie folgt ausführen:
+```
+http://localhost:5173
+```
 
-# Unit-Tests
-npm test  # oder `yarn test`
+---
 
-# End-to-End-Tests mit Cypress
-npx cypress open  # oder `yarn cypress open`
+## 🛠️ Build für Produktion
 
-Build
+```bash
+npm run build
+```
 
-Um eine Produktionsversion zu erstellen, führe folgenden Befehl aus:
+Optional: Vorschau der gebauten App starten:
 
-npm run build  # oder `yarn build`
+```bash
+npm run preview
+```
 
-Dadurch wird ein build/-Verzeichnis erstellt, das die optimierte Version der Anwendung enthält.
+---
 
-Mitwirken
+## ✅ Cypress E2E-Tests
 
-Wenn du zum Projekt beitragen möchtest:
+### 1. Dev-Server starten (in separatem Terminal):
 
-Forke das Repository.
+```bash
+npm run dev
+```
 
-Erstelle einen neuen Branch: git checkout -b feature-xyz.
+### 2. Cypress öffnen:
 
-Führe deine Änderungen durch und committe sie.
+```bash
+npm run cypress:open
+```
 
-Erstelle einen Pull Request.
+> Die Tests laufen gegen `http://localhost:5173`, wie in der `cypress.config.cjs` festgelegt.
 
-Lizenz
+---
 
-Dieses Projekt steht unter der MIT-Lizenz. Siehe die Datei LICENSE für weitere Informationen.
+## 🧪 Technologien
 
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Cypress](https://www.cypress.io/) – E2E & Component Testing
+
+---
+
+## 📁 Projektstruktur
+
+```
+📦 MutliStepFormReact
+ ┣ 📂 public          → Statische Dateien
+ ┣ 📂 src             → React-Komponenten & Logik
+ ┣ 📂 cypress         → Cypress Tests
+ ┣ 📜 cypress.config.cjs
+ ┣ 📜 vite.config.ts
+ ┗ 📜 package.json
+```
+
+---
+
+## 🧑‍🔧 Mitwirkende
+
+- 👨‍💻 [OPuder](https://github.com/OPuder)
+
+---
+
+## 📄 Lizenz
+
+MIT – frei zur Verwendung, Modifikation und Weitergabe.
