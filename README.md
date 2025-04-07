@@ -10,7 +10,7 @@ Ein einfaches, modernes Multi-Step-Formular mit React, Vite und TypeScript.
 
 ```bash
 git clone https://github.com/OPuder/React-MutliStepFormReact.git
-cd React-MutliStepFormReact
+cd React-MutliStepFormReact\MultiStepForm
 ```
 
 ### 2. Abhängigkeiten installieren
